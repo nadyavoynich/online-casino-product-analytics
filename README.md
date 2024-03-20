@@ -3,9 +3,9 @@
 ## Project Description
 The primary objective of this project is to provide product analytics for an online casino. 
 It comprises three main components:
-1. A compilation of *the most commonly used Key Performance Indicators (KPIs)* for measuring user engagement, 
+1. A compilation of **the most commonly used Key Performance Indicators (KPIs)** for measuring user engagement, 
 financial performance, game performance, and the overall operational efficiency of an online casino.
-2. *SQL queries tailored to deliver specific product analytics* for an online casino, aimed at addressing 
+2. **SQL queries tailored to deliver specific product analytics** for an online casino, aimed at addressing 
 the following key questions:
    * The number of unique users and devices over a specified period.
    * The top 5 countries by the number of registered users.
@@ -14,7 +14,7 @@ the following key questions:
    * Daily Active Users (DAU) who have confirmed their email addresses, broken down by month.
    * The proportion of successful payment amounts from users with confirmed email addresses.
    * Statistical measures such as the mean, lower quartile, median, and upper quartile of the time intervals between successful payments for each user.
-3. *Estimation of A/B test performance*, aimed at evaluating the effectiveness of changes implemented within the online casino platform.
+3. **Estimation of A/B test performance**, aimed at evaluating the effectiveness of changes implemented within the online casino platform.
 
 ## Dataset Overview
 
@@ -54,7 +54,7 @@ The dataset comprises 835,357 records, each including the following fields:
 * Application of the Chi-square test to estimate statistical significance.
 
 ## Findings & Conclusions
-1. Compiled a list of the 10 most commonly used KPIs essential for assessing the performance of an online casino.
-2. Developed SQL queries specifically designed for the ClickHouse DBMS to provide in-depth product analytics for the online casino.
-3. *A/B test performance evaluation*: The variant group showed a slightly higher conversion rate (25.0%) compared to the control group (24.7%).
+1. Compiled a list of the **10 most commonly used KPIs** essential for assessing the performance of an online casino.
+2. **Developed SQL queries** specifically designed for the ClickHouse DBMS to provide in-depth product analytics for the online casino.
+3. **A/B test performance evaluation**: The variant group showed a slightly higher conversion rate (25.0%) compared to the control group (24.7%).
 However, the difference is not statistically significant, indicating insufficient evidence to assert a meaningful difference in conversion rates between the two groups.
