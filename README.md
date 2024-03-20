@@ -3,9 +3,9 @@
 ## Project Description
 The primary objective of this project is to provide product analytics for an online casino. 
 It comprises three main components:
-1. A compilation of the most commonly used Key Performance Indicators (KPIs) for measuring user engagement, 
+1. A compilation of *the most commonly used Key Performance Indicators (KPIs)* for measuring user engagement, 
 financial performance, game performance, and the overall operational efficiency of an online casino.
-2. SQL queries tailored to deliver specific product analytics for an online casino, aimed at addressing 
+2. *SQL queries tailored to deliver specific product analytics* for an online casino, aimed at addressing 
 the following key questions:
    * The number of unique users and devices over a specified period.
    * The top 5 countries by the number of registered users.
@@ -14,7 +14,7 @@ the following key questions:
    * Daily Active Users (DAU) who have confirmed their email addresses, broken down by month.
    * The proportion of successful payment amounts from users with confirmed email addresses.
    * Statistical measures such as the mean, lower quartile, median, and upper quartile of the time intervals between successful payments for each user.
-3. Estimation of A/B test performance, aimed at evaluating the effectiveness of changes implemented within the online casino platform.
+3. *Estimation of A/B test performance*, aimed at evaluating the effectiveness of changes implemented within the online casino platform.
 
 ## Dataset Overview
 
@@ -36,19 +36,19 @@ The dataset comprises 835,357 records, each including the following fields:
 
 ## Setup & Requirements
 ### Software Requirements:
-* Python version 3.x installed on your system.
+* Python version 3.x installed.
 * Database Management System (DBMS): This project uses ClickHouse as its primary DBMS.
-* Jupyter Notebook for running and sharing thr Python code, analysis, and findings.
+* Jupyter Notebook for running and sharing Python code, analysis, and findings.
 
 ### Python Libraries:
-* Pandas: For data manipulation and analysis. Install using `pip install pandas`.
-* NumPy: For numerical operations. Install using `pip install numpy`.
-* SciPy: For scientific computing, including the Chi-square test. Install using `pip install scipy`.
-* SQLAlchemy: For SQL database connection and queries from within Python. Install using `pip install SQLAlchemy`.
-* ClickHouse-driver: For connecting to ClickHouse DBMS from Python. Install using `pip install clickhouse-driver`.
+* *Pandas:* For data manipulation and analysis. Install using `pip install pandas`.
+* *NumPy:* For numerical operations. Install using `pip install numpy`.
+* *SciPy:* For scientific computing, including the Chi-square test. Install using `pip install scipy`.
+* *SQLAlchemy:* For SQL database connection and queries from within Python. Install using `pip install SQLAlchemy`.
+* *ClickHouse-driver:* For connecting to ClickHouse DBMS from Python. Install using `pip install clickhouse-driver`.
 
 ## Methodology
-* Execution of SQL queries for the ClickHouse DBMS.
+* Developing SQL queries tailored for the ClickHouse DBMS.
 * Preliminary data exploration and analysis.
 * Data wrangling using the pandas Python library.
 * Application of the Chi-square test to estimate statistical significance.
