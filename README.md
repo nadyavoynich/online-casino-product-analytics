@@ -54,7 +54,7 @@ The dataset comprises 835,357 records, each including the following fields:
 * Application of the Chi-square test to estimate statistical significance.
 
 ## Findings & Conclusions
-1. Compiled a list of the **10 most commonly used KPIs** essential for assessing the performance of an online casino.
-2. **Developed SQL queries** specifically designed for the ClickHouse DBMS to provide in-depth product analytics for the online casino.
-3. **A/B test performance evaluation**: The variant group showed a slightly higher conversion rate (25.0%) compared to the control group (24.7%).
-However, the difference is not statistically significant, indicating insufficient evidence to assert a meaningful difference in conversion rates between the two groups.
+**A/B test performance evaluation**: The test variant group showed a slightly higher conversion rate (25.0%) compared to the baseline control group (24.7%). 
+This suggests the variant might be slightly more effective. However, the difference is not statistically significant. 
+There is insufficient evidence to assert a meaningful difference in conversion rates between the two groups, 
+underscoring the need for further testing or analysis to draw definitive conclusions.
